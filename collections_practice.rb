@@ -13,3 +13,7 @@ end
 def swap_elements(array)
   [array[0], array[2], array[1]].concat(array[3..-1])
 end
+
+def reverse_array(arr)
+  
+end
