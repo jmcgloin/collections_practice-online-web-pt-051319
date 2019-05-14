@@ -21,3 +21,7 @@ end
 def kesha_maker(arr)
   arr.each { |el| el[2] = '$'}
 end
+
+def find_a(arr)
+  
+end
