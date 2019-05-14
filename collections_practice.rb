@@ -25,3 +25,7 @@ end
 def find_a(arr)
   arr.delete_if{ |el|  el[0] != 'a'}
 end
+
+def sum_array(arr)
+  
+end
