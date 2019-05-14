@@ -33,5 +33,5 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  array.map{ |el| el.concat('s') }
+  arr.map{ |el| el.concat('s') }
 end
