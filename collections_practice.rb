@@ -1,3 +1,3 @@
 def sort_array_asc(ints)
-  ints.sort{}
+  ints.sort{ |a, b}
 end
