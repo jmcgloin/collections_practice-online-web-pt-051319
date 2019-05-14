@@ -33,5 +33,5 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  arr.map{ |el|  }
+  arr.each{ |el| arr.index(el) != 2 ? el +  }
 end
