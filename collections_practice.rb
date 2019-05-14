@@ -1,5 +1,5 @@
 def sort_array_asc(ints)
-  ints.sort{ |a, b| do 
+  ints.sort |a, b| do 
     a < b
-  }
+  end
 end
