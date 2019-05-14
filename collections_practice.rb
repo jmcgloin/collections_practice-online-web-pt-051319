@@ -23,5 +23,5 @@ def kesha_maker(arr)
 end
 
 def find_a(arr)
-  
+  arr.collect{ |el| el[0] == 'a'}
 end
