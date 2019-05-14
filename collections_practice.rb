@@ -23,5 +23,5 @@ def kesha_maker(arr)
 end
 
 def find_a(arr)
-  arr.collect{ |el| el if el[0] == 'a'}
+  arr.drop_while{ |i|  arr[i][0] != 'a'}
 end
