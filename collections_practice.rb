@@ -31,3 +31,7 @@ def sum_array(arr)
   arr.each{ |el| sum += el.to_i }
   sum
 end
+
+def add_s(arr)
+  array.map
+end
