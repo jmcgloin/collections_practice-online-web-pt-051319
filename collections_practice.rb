@@ -17,3 +17,9 @@ end
 def reverse_array(arr)
   arr.reverse
 end
+
+def kesha_maker(arr)
+  arr.each |el| do
+    el[2] = $
+  end
+end
