@@ -28,5 +28,6 @@ end
 
 def sum_array(arr)
   sum = 0
-  arr.each{ |el| sum += el.to_
+  arr.each{ |el| sum += el.to_i }
+  sum
 end
