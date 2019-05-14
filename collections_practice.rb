@@ -21,6 +21,6 @@ end
 def kesha_maker(arr)
   arr.each do
     |el|
-    el[2] = $
+    el[2] = '$'
   end
 end
