@@ -33,5 +33,5 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  arr.each_index{ |i| i != 1 ? arr[i] = arr[i].concat('s') : arr[i] }
+  arr.each_index{ |i| arr[i].concat('s') if i != 1 }
 end
